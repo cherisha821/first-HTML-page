@@ -1,4 +1,58 @@
-.container{
-    width: 0;
-    height: 10%;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:rgb(35, 37, 37) ;
+
 }
+
+.login-box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%s);
+}
+
+.cta{
+
+    background: rgb(211, 75, 179);
+    width: calc{100%-1em};
+    display: block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 3% 5% 7%;
+    padding: 0.5em
+
+}
+
+
+.textbox input[type = "text"], .textbox[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(211, 75, 179);
+    padding: 10px ;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+
+}
+.logo{
+   
+    border-radius: 20px;
+   
+}
+h1{
+   
+    color: white;
+    font-style: bold;
+}
+
